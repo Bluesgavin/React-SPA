@@ -1,0 +1,14 @@
+.alert{
+
+}
+.alert .alert-text{
+    margin:20px 0;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+}
+.alert .alert-content{
+    width:400px;
+}
+.alert .ant-alert{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,68 @@
+.App{
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
+.App .header{
+  font-size: 20px;
+  color:#000;
+}
+.link-tab,.link-tab:active,.link-tab:focus{
+  text-decoration: none;
+}
+.App .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab{
+  padding: 0;
+}
+.App .ant-tabs-bar{
+  margin: 0;
+}
+.link-tab{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 0 23px 0 16px;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab .ant-tabs-close-x{
+  position: absolute;
+  top: 14px;
+  right: 8px;
+}
+.App .ant-tabs-tab-active .link-tab{
+  font-weight: bold;
+}
+.App .ant-layout-content{
+  padding: 10px 24px;
+  min-height: auto;
+  overflow-y: auto;
+}
+.App .ant-tabs-tab>div{
+  position: relative;
+}
+.App .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab{
+  margin-right: 0;
+}
+
+.App .page-text{
+  margin:20px 0;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+}
+.App .ant-layout-header{
+  background-color: #fff;
+}
+.App .ant-layout-content{
+  height: 100%;
+}
+.App .loading{
+  height: 100%;
+}
+.App .loading .ant-spin-nested-loading,.App .ant-spin-spinning{
+  height: 100%;
+}
+
+.App .content-text{
+  margin:20px 0;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+}
